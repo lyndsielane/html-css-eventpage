@@ -3,3 +3,27 @@ body {
   background-position: center top;
   background-size: cover;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  color: white;
+  background-color: #00000080;
+  text-align: center;
+  padding: 30px;
+}
+
+button {
+  width: fit-content;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: green;
+  color: white;
+}
